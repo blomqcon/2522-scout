@@ -1,0 +1,30 @@
+﻿<div class="row page-content
+    <h1>Scout Application Login</h1>
+    <div class="row control-group">
+        <div class="col-sm-3">
+            <label for="userName">User Name </label>
+        </div>
+        <div class="col-sm-3">
+            <input type="text" name="userName" ng-model="userName" />
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="col-sm-3">
+            <label for="password">Password</label>
+        </div>
+        <div class="col-sm-3">
+            <input type="password" name="password" ng-model="password" />
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="col-sm-3">
+            <button class="btn btn-default" ng-click="login()">Login</button>
+        </div>
+        <div class="col-sm-3">
+            <button ng-click="cancel()" class="btn btn-link">Cancel</button>
+        </div>
+        <div class="col-sm-3">
+            <a href="#/newAccount"><button ng-click="new_account()" class="btn btn-link">Create Account</button></a>
+        </div>
+    </div>
+</div>

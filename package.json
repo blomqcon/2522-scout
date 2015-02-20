@@ -1,0 +1,28 @@
+{
+  "name": "FRC-2522-Scout",
+  "version": "0.0.1",
+  "description": "An application that records FRC event data for use in alliance selection and match planning",
+  "author": "Connor Blomquist <connor.blomquists@gmail.com>",
+  "private": true,
+  "contributors": [],
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "predeploy": "echo deploying...",
+    "postdeploy": "echo deployed!"
+  },
+   "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+	  "express": "~4.0.0",
+		"socket.io": "~0.9.16",
+		"jade": "*",
+    "stylus": "*",
+		"mongoose": ">= 3.8.0",
+    "jwt-simple": "~0.2.0",
+    "underscore": "~1.6.0",
+    "body-parser": "~1.10.0"
+  }
+}
